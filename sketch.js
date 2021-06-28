@@ -44,7 +44,7 @@ function setup() {
   
   //create launcherObject here
 
-  launcher=new Launcher(stoneObj.body,{x:275,y:510})
+  launcher=new Launcher(stoneObj.body,{x:235,y:420})
 
   //rope=new Rope(boy.body,stoneObj.body,-80,0)
 

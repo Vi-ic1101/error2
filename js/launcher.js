@@ -1,10 +1,10 @@
 class Launcher{
-    construcutor(body,anchor){
+    constructor(body,anchor){
         var options={
             bodyA:body,
             pointB:anchor,
-            stifness:0.04,
-            length:1
+            stiffness:0.004,
+            length:50
         }
      //   this.launcher=loadImage("images/boy.png")
 
@@ -23,23 +23,14 @@ class Launcher{
 
     display(){
       
-        if(this.launcher.bodyA){
+       if(this.launcher.bodyA){
             var pointA=this.bodyA.position
             var pointB=this.pointB;
-            strokeWeight(0)
+            strokeWeight(3)
             line(pointA.x,pointA.y,pointB.x,pointB.y)
-           /* push();
-            if(pointA.x < 220){
-                strokeWeight(7);
-                line(pointA.x,pointA.y,pointB.x,pointB.y)
-                image(this.launcher,pointA.x-30,pointb.y-10,15,20)
-            }else{
-                    strokeWeight(7);
-                    line(pointA.x,pointA.y,pointB.x,pointB.y)
-                    image(this.boy1,pointA.x-30,pointb.y-10,15,20)
-                }
-                pop();*/
-            }
+          
+                
+           }
         }
     }
 
